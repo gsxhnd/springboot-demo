@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+#默认使用配置
+
+
+spring:
+  datasource:
+      name: test
+#      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC
+      username: root
+      password:
+
+## 日志配置
+logging:
+  level:
+    root: info
+  file: log/log.log
+
+## mybatis配置
+mybatis-plus:
+  type-aliases-package: com.ldblockchain.sls.api.entity
+  mapper-locations: classpath:mapper/*.xml
+
+
+
+
