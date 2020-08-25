@@ -1,8 +1,8 @@
-package com.ldblockchain.sls;
+package xyz.gsxhnd.springboot-demo;
 
 
-import com.ldblockchain.sls.api.entity.LdUser;
-import com.ldblockchain.sls.api.mapper.LdUserMapper;
+import xyz.gsxhnd.springboot-demo.api.entity.LdUser;
+import xyz.gsxhnd.springboot-demo.api.mapper.LdUserMapper;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

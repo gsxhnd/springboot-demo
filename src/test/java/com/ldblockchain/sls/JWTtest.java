@@ -1,6 +1,6 @@
-package com.ldblockchain.sls;
+package xyz.gsxhnd.springboot-demo;
 
-import com.ldblockchain.sls.util.JWTUtil;
+import xyz.gsxhnd.springboot-demo.util.JWTUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

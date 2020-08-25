@@ -1,4 +1,4 @@
-package com.ldblockchain.sls;
+package xyz.gsxhnd.springboot-demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
